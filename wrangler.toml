@@ -1,3 +1,5 @@
 name = "decifra-ai"
-main = ".next/worker/index.mjs"        # <-- só se usar adaptador SSR/Edge!
 compatibility_date = "2025-05-31"
+
+[site]
+bucket = "./out"
