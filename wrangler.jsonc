@@ -1,8 +1,0 @@
-{
-  "name": "decifra-ai",
-  "compatibility_date": "2025-05-31",
-  "main": ".next/worker/index.mjs", // <-- ajuste se usar adaptador diferente
-  "site": {
-    "bucket": ".next/static"
-  }
-}
