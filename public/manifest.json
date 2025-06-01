@@ -1,0 +1,13 @@
+{
+  "name": "Decifra AI Studio",
+  "short_name": "DecifraAI",
+  "icons": [
+    { "src": "/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "start_url": "/",
+  "background_color": "#101A30",
+  "theme_color": "#101A30",
+  "display": "standalone",
+  "orientation": "portrait"
+}
