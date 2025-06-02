@@ -6,7 +6,7 @@ export default function Loader() {
       justifyContent: "center",
       minHeight: "30vh"
     }}>
-      <div className="decifra-loader"></div>
+      <div className="decifra-loader" role="status"></div>
       <style jsx>{`
         .decifra-loader {
           border: 6px solid #3971FF;

@@ -1,4 +1,10 @@
-export default function Button({ loading, children, ...props }) {
+import React from "react";
+
+type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  loading?: boolean;
+};
+
+export default function Button({ loading, children, ...props }: ButtonProps) {
   return (
     <button
       {...props}

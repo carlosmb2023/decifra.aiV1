@@ -14,6 +14,7 @@ export default function ContactButton() {
         textDecoration: "none",
         display: "inline-block"
       }}
+      aria-label="Fale com o Dr. Decifra no WhatsApp"
     >
       Fale com o Dr. Decifra no WhatsApp!
     </a>
